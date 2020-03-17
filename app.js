@@ -4,8 +4,6 @@ const port = 3000;
 
 app.set('view-engine', 'ejs');
 
-app.use(express.static('public'));
-
 app.get('/', (req, res) => {
     res.render('index.ejs')
 });
@@ -13,6 +11,8 @@ app.get('/', (req, res) => {
 app.get('/success', (req, res) => {
     res.render('success.ejs')
 })
+
+app.use(express.static('public'));
 
 app.listen(port, () => {
     console.log(`Server is listening on port ${port}`)
