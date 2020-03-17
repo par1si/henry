@@ -1,14 +1,14 @@
 {
   "name": "henry",
   "version": "1.0.0",
-  "description": "",
+  "description": "Some app for Henry",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
     "devStart": "nodemon app.js"
   },
-  "author": "",
+  "author": "Peter Parisi",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.0.1",
